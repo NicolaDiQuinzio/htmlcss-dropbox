@@ -9,6 +9,12 @@
 ul {
   list-style: none;
 }
+.gap-2 {
+  gap: 1rem;
+}
+.gap-1 {
+  gap: 3rem;
+}
 img {
   width: 100%;
 }
@@ -20,6 +26,9 @@ a {
 /* .debug {
   border: 1px solid red;
 }*/
+.margin3 {
+  margin: 1rem;
+}
 .margin {
   margin: 2rem;
 }
@@ -35,6 +44,7 @@ a {
 .marginbottom1 {
   margin-bottom: 1rem;
 }
+
 .margin-top1 {
   margin-top: 1rem;
 }
@@ -47,7 +57,12 @@ a {
 .margin-right {
   margin-right: 3rem;
 }
-
+.margin2 {
+  margin: 1.5rem;
+}
+.margin-left2 {
+  margin-left: 1rem;
+}
 /* ------------------------------Colors------------------------------------------*/
 :root {
   --bluebutton: #0061ff;
@@ -111,6 +126,10 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 10px;
+}
+.small-container2 {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 /*----------------------------------------- header --------------------------------------------*/
 header {
@@ -231,10 +250,6 @@ main h1 {
   max-width: 30%;
 }
 
-.gap-1 {
-  gap: 3rem;
-}
-
 /* -------------------------features ---------------------------*/
 .card {
   width: calc(100% / 3);
@@ -275,7 +290,6 @@ main h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  filter: invert(5);
 }
 .centerlogo {
   width: 50%;
@@ -319,7 +333,9 @@ main h1 {
 .min-width {
   min-height: 30vh;
 }
-
+#h2color {
+  color: var(--titlecolor);
+}
 /*--------------------------------- faq ---------------------*/
 #faq h2 {
   margin-bottom: 40px;
