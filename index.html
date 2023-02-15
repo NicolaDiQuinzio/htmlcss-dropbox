@@ -17,6 +17,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Dropbox</title>
   </head>
@@ -41,8 +45,8 @@
           <div class="displayflex">
             <ul class="displayflex justify-center align-center">
               <li>Supporto</li>
-              <li>Contatta l'ufficio</li>
-              <li>Accedi</li>
+              <li>Contatta l'ufficio vendite</li>
+              <li class="marginli">Accedi</li>
             </ul>
             <div class="padding-right">
               <a class="startbutton" href=" https://www.dropbox.com/login"
@@ -68,7 +72,9 @@
               </p>
               <a class="bluebutton" href="/">Inizia la tua prova gratuita</a>
               <p class="margin-top1">Annulla in qualsiasi momento</p>
-              <a class="arrow" href="/"> &#129139; </a>
+              <a class="arrow" href="/">
+                <i class="fa-solid fa-arrow-down"></i>
+              </a>
             </div>
             <div class="dashboard-customers">
               <img src="./img/jumbo.png" alt=" dashboard-customers img" />
@@ -91,11 +97,11 @@
           </div>
         </div>
         <!-- cards -->
-        <div class="small-container displayflex marginbottom1">
+        <div class="small-container displayflex">
           <!-- first card -->
           <div class="card box">
             <div class="cardheader">
-              <h3>Singolo</h3>
+              <h3><i class="fa-solid fa-user"></i> Singolo</h3>
             </div>
             <hr />
             <div class="flex-column margin-left margin-right">
@@ -106,13 +112,16 @@
               </div>
               <div>
                 <ul class="margin-top1">
-                  <li class="displayflex marginbottom1">utente</li>
                   <li class="displayflex marginbottom1">
-                    5 TB di spazio di archiviazione sicuro
+                    <i class="fa-solid fa-user"></i>utente
                   </li>
                   <li class="displayflex marginbottom1">
-                    Funzioni di produttività premium e condivisione file
-                    semplice e sicura
+                    <i class="fa fa-folder" aria-hidden="true"></i> 5 TB di
+                    spazio di archiviazione sicuro
+                  </li>
+                  <li class="displayflex marginbottom1">
+                    <i class="fas fa-share-alt"></i> Funzioni di produttività
+                    premium e condivisione file semplice e sicura
                   </li>
                 </ul>
               </div>
@@ -120,7 +129,7 @@
                 <a href="/" class="bluebutton"> Prova gratis per 30 giorni</a>
               </div>
               <div class="marginbottom">
-                <p>oppure <a href="/"> acquista ora</a></p>
+                <p>oppure <a href="/" class="bluelink"> acquista ora</a></p>
               </div>
               <hr />
               <div class="cardfooter margin-top1">
@@ -129,10 +138,12 @@
                 </p>
                 <ul>
                   <li class="displayflex marginbottom1">
-                    invia file fino a 100 GB con Dropbox Tranfert
+                    <i class="fa-solid fa-check bluelink"></i> invia file fino a
+                    100 GB con Dropbox Tranfert
                   </li>
                   <li class="displayflex">
-                    Cartelle Offline su dispositivi mobili
+                    <i class="fa-solid fa-check bluelink"></i> Cartelle Offline
+                    su dispositivi mobili
                   </li>
                 </ul>
               </div>
@@ -140,7 +151,7 @@
           </div>
           <div class="card box">
             <div class="cardheader">
-              <h3>Team</h3>
+              <h3><i class="fa-solid fa-user-group"></i>Team</h3>
             </div>
             <hr />
             <div class="flex-column margin-left margin-right">
@@ -151,13 +162,16 @@
               </div>
               <div>
                 <ul class="margin-top1">
-                  <li class="displayflex marginbottom1">3 o più utenti</li>
                   <li class="displayflex marginbottom1">
-                    Tutto lo spazio di cui ha bisogno il tuo team
+                    <i class="fa-solid fa-user-group"></i>3 o più utenti
                   </li>
                   <li class="displayflex marginbottom1">
-                    Funzioni di produttività premium e condivisione file
-                    semplice e sicura
+                    <i class="fa fa-folder" aria-hidden="true"></i> Tutto lo
+                    spazio di cui ha bisogno il tuo team
+                  </li>
+                  <li class="displayflex marginbottom1">
+                    <i class="fas fa-share-alt"></i> Funzioni di produttività
+                    premium e condivisione file semplice e sicura
                   </li>
                 </ul>
               </div>
@@ -165,7 +179,7 @@
                 Prova gratis per 30 giorni</a
               >
               <p class="margin-top1 marginbottom">
-                oppure <a href="/"> acquista ora</a>
+                oppure <a href="/" class="bluelink"> acquista ora</a>
               </p>
               <hr />
               <div class="cardfooter margin-top1">
@@ -174,19 +188,24 @@
                 </p>
                 <ul>
                   <li class="displayflex marginbottom1">
-                    Nessun limite di piano
+                    <i class="fa-solid fa-check bluelink"></i> Nessun limite di
+                    piano
                   </li>
                   <li class="displayflex marginbottom1">
-                    Cartelle offline su dispositivi mobili
+                    <i class="fa-solid fa-check bluelink"></i> Cartelle offline
+                    su dispositivi mobili
                   </li>
                   <li class="displayflex marginbottom1">
-                    Risparmio del 50% rispetto alle iscrizioni singole
+                    <i class="fa-solid fa-check bluelink"></i> Risparmio del 50%
+                    rispetto alle iscrizioni singole
                   </li>
                   <li class="displayflex marginbottom1">
-                    Possibilità di inserire nuovi membri del team
+                    <i class="fa-solid fa-check bluelink"></i> Possibilità di
+                    inserire nuovi membri del team
                   </li>
                   <li class="displayflex marginbottom1">
-                    Gestione dei permessi in base ai ruoli
+                    <i class="fa-solid fa-check bluelink"></i> Gestione dei
+                    permessi in base ai ruoli
                   </li>
                 </ul>
               </div>
@@ -194,7 +213,7 @@
           </div>
           <div class="card box">
             <div class="cardheader">
-              <h3>Azienda</h3>
+              <h3><i class="fa-solid fa-building"></i>Azienda</h3>
             </div>
             <hr />
             <div class="flex-column margin-right margin-left">
@@ -205,68 +224,80 @@
               <div>
                 <ul class="margin-top1">
                   <li class="displayflex margin-top1 marginbottom1">
-                    10 0 più utenti
+                    <i class="fa-solid fa-building"></i> 10 0 più utenti
                   </li>
                   <li class="displayflex marginbottom1">
-                    Soluzioni personalizzabili per la tua azienda
+                    <i class="fa fa-folder" aria-hidden="true"></i> Soluzioni
+                    personalizzabili per la tua azienda
                   </li>
                   <li class="displayflex marginbottom1">
-                    Assistenza personalizzata per aiutare gli amministratori in
-                    una gestione su larga scala
+                    <i class="fas fa-share-alt"></i> Assistenza personalizzata
+                    per aiutare gli amministratori in una gestione su larga
+                    scala
                   </li>
                 </ul>
               </div>
-              <a href="/" class="bluebutton margin-top1 marginbottom">
+              <a href="/" class="bluebutton marginbottom">
                 Prova gratis per 30 giorni</a
               >
-              <p class="margin-top1 marginbottom1">
-                oppure <a href="/"> acquista ora</a>
+              <p class="marginbottom1">
+                oppure <a href="/" class="bluelink"> acquista ora</a>
               </p>
-              <hr />
+
               <div class="cardfooter margin-top1">
-                <p class="bold marginbottom1 margin-top1">
+                <hr />
+
+                <p class="bold marginbottom margin-top2">
                   Punti Salienti del piano
                 </p>
+
                 <ul>
                   <li class="displayflex margin-top1 marginbottom1">
-                    Cartelle Offline su dispositivi mobili
+                    <i class="fa-solid fa-check bluelink"></i> Cartelle Offline
+                    su dispositivi mobili
                   </li>
                   <li class="displayflex marginbottom1">
-                    Servizio assistenza 24/h
+                    <i class="fa-solid fa-check bluelink"></i> Servizio
+                    assistenza 24/h
                   </li>
                   <li class="displayflex margin-top1">
-                    Possibilità di personalizzazione totale
+                    <i class="fa-solid fa-check bluelink"></i> Possibilità di
+                    personalizzazione totale
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <div class="small-container2 box margin-top1">
-          <div class="displayflex justify-center space-between">
-            <h3 class="bold margin3">Team</h3>
-          </div>
-          <hr />
-          <div class="flex-column">
-            <div class="displayflex space-between align-center">
-              <div class="displayflex space-between justify-center gap-2">
-                <h4 class="margin-left2">Enterprise</h4>
-              </div>
+        <div class="margin-top2">
+          <div class="small-container2 box">
+            <div class="displayflex justify-center space-between">
+              <h3 class="bold margin3">
+                <i class="fa-solid fa-building"></i>Team
+              </h3>
+            </div>
+            <hr />
+            <div class="flex-column">
+              <div class="displayflex space-between align-center">
+                <div class="displayflex space-between justify-center gap-2">
+                  <h4 class="margin-left2">Enterprise</h4>
+                </div>
 
-              <a class="bluebutton margin2" href="/"
-                >Contatta l'ufficio vendite</a
-              >
-            </div>
-            <div>
-              <p class="bold margin-left2 marginbottom">
-                Contatta l'ufficio vendite per i prezzi
-              </p>
-            </div>
-            <div>
-              <p class="margin-left2 marginbottom">
-                Soluzioni personalizzate e supporto per aiutare i professionisti
-                IT nella gestione su quasliasi scala.
-              </p>
+                <a class="bluebutton margin2" href="/"
+                  >Contatta l'ufficio vendite</a
+                >
+              </div>
+              <div>
+                <p class="bold margin-left2 marginbottom">
+                  Contatta l'ufficio vendite per i prezzi
+                </p>
+              </div>
+              <div>
+                <p class="margin-left2 marginbottom">
+                  Soluzioni personalizzate e supporto per aiutare i
+                  professionisti IT nella gestione su quasliasi scala.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -390,7 +421,9 @@
             Più di 500.00 team utilizzano Dropbox Buisness
           </h2>
           <div class="marginbottom-100">
-            <a href="/">Scopri di più sui nostri clienti</a>
+            <a href="/" class="bluelink margin-top2"
+              >Scopri di più sui nostri clienti</a
+            >
           </div>
         </div>
         <div class="boxlogos displayflex">
@@ -416,7 +449,7 @@
               class="centerlogo margin"
             />
             <hr class="margin" />
-            <small class="margin">
+            <small>
               I membri del nostro team lavorano costantemente in Paesi, fusi
               orari e uffici diversi. Ora molte soluzioni sono compatibili con
               queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox
@@ -456,7 +489,7 @@
           </div>
         </div>
       </section>
-      <!-- da sistemare -->
+
       <!-- domande frequenti -->
       <section id="faq" class="marginbottom-100">
         <div class="small-container">
@@ -466,9 +499,10 @@
             <p>
               Qual è la differenza tra DropboxBusiness Standard e DropBox
               Business Advanced?
-              <span><i class="fas fa-chevron-down"></i> </span>
+              <span> <i class="fas fa-chevron-down"></i> </span>
             </p>
           </div>
+
           <hr />
           <div class="questions">
             <p>
